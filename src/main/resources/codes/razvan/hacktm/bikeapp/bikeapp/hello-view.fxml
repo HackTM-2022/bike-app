@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #3BE1C3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codes.razvan.hacktm.bikeapp.bikeapp.HelloController">
+   <children>
+      <ImageView fitHeight="505.0" fitWidth="881.0" layoutY="576.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/banner.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="qr" blendMode="ADD" fitHeight="1000.0" fitWidth="1000.0" layoutX="876.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true" smooth="false" />
+      <Text fill="#ff43da" layoutX="205.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scan the QR on">
+         <font>
+            <Font name="System Bold" size="69.0" />
+         </font>
+      </Text>
+      <Text fill="#ffd443" layoutX="14.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="https://bit.ly/BitHunters" textAlignment="CENTER" wrappingWidth="833.109375">
+         <font>
+            <Font size="63.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
